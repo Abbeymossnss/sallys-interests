@@ -1,0 +1,56 @@
+.interest {
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.bio__name {
+    font: 2000px
+}
+
+
+.bio__interests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Evenly space the child elements */
+}
+
+.bio__interests {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bio__interests > * {
+    flex: 0 0 calc(50% - 10px); /* Set each child element to 50% width with a 10px margin between them */
+    margin: 5px; /* Add a 5px margin to each side of the child element */
+}
+
+.bio__interests {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bio__interests > * {
+    flex: 0 0 25%; /* Set each child element to 25% width */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    padding: 10px;
+}
+.interest {
+    flex-basis: 16%;  /* Make each child element the same width */
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+}
+.interest {
+    flex-basis: 16%;
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; /* Center align the text in the boxes */
+}
+.interest {
+    flex-basis: 16%;  /* Make each child element the same width */
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+}
